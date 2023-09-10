@@ -13,4 +13,4 @@ config {
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
 
-create or replace view `test-env-391904.views.first_view` as (select 2 as a)
+create or replace view `test-env-391904.views.test_view` as (select 2 as a)
